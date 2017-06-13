@@ -1,5 +1,6 @@
-# Plugin Template
+# Fidget Spinner Widget
 
-This is a template file for a plugin.
+Like fidget spinners?
+Like WordPress widgets?
 
-It has the core structure for building an OOP extensible plugin
+Then what could be better than a fidget spinner widget?!
