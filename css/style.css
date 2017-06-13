@@ -1,0 +1,25 @@
+/* The animation code */
+@keyframes spinning {
+    0%   { transform: rotate( 0deg ) }
+    25%  { transform: rotate( 120deg ) }
+    50%  { transform: rotate( 240deg ) }
+    100% { transform: rotate( 360deg ) }
+}
+
+/* The element to apply the animation to */
+.widget-spinner .spinner-container {
+	position: relative;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.widget-spinner .spinner.spinning {
+	animation: spinning 0.5s;
+}
+
+.widget-spinner .center-piece {
+	position: absolute;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+}
